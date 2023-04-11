@@ -13,6 +13,8 @@
 		Connection con;
 		PreparedStatement pstmt;
 				PreparedStatement pstmt;
+				
+		String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
 
 		ResultSet rs=null;
 		String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
