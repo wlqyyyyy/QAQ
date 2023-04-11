@@ -32,6 +32,7 @@
 		rs.close();
 		pstmt.close();
 		con.close();
+		con.close();con.close();
 
 		
 
