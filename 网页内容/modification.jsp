@@ -12,6 +12,8 @@
 		String snumber = o.toString();
 		Connection con;
 		PreparedStatement pstmt;
+				PreparedStatement pstmt;
+
 		ResultSet rs=null;
 		String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
 		String url = "jdbc:sqlserver://localhost:1433;DatabaseName=LCBCom";
