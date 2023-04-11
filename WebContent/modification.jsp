@@ -6,6 +6,8 @@
 
 	<% 
 		session = request.getSession();
+				session = request.getSession();
+
 		Object o = session.getAttribute("showInfo_snumber");
 		String snumber = o.toString();
 		Connection con;
